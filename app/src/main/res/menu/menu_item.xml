@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/networkID"
+        android:title="Network"
+        android:icon="@drawable/ic_network_foreground"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/wifiID"
+        android:title="WIFI"
+        android:icon="@drawable/ic_wifi_foreground"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/batteryID"
+        android:title="Battery"
+        android:icon="@drawable/ic_batteryCharge_foreground"
+        app:showAsAction="always" />
+
+
+</menu>

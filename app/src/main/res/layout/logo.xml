@@ -1,0 +1,26 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logo"
+    android:layout_width="60dp"
+    android:layout_height="80dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="27dp"
+    android:layout_alignParentTop="true"
+
+    android:clipToOutline="true"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/next_lvl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

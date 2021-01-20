@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="menu">
+
+        <item name="android:textSize">12sp</item>
+
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+        <style name="main_headin">
+
+            <item name="android:textSize">
+                140sp
+            </item>
+
+            <item name="android:textColor">
+                #E7E7E7
+            </item>
+
+        </style>
+        <style name="jake">
+
+            <item name="android:textSize">
+                40sp
+            </item>
+
+            <item name="android:textColor">
+                #494949
+            </item>
+
+        </style>
+
+    <style name="davies">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+
+
+
+        <item name="android:textColor">
+            #555555
+        </item>
+
+    </style>
+    <style name="i_do_art_i_">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #3F3F3F
+        </item>
+
+    </style>
+
+</resources>

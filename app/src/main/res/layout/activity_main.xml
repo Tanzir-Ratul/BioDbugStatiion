@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <include layout="@layout/path_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="bottom"/>
+
+            <include
+                layout="@layout/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:orientation="vertical">
+
+            <include layout="@layout/menutext" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="right"
+            android:id="@+id/main_headin"
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:gravity="top"
+            android:text="@string/main_headin"
+            android:textAppearance="@style/main_headin" />
+        <TextView
+            android:id="@+id/jake"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+           android:layout_gravity="right"
+            android:text="@string/jake"
+            android:textAppearance="@style/jake"
+            android:letterSpacing="-.05"
+            android:gravity="right|top"
+            />
+        <TextView
+            android:id="@+id/davies"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_gravity="right"
+            android:text="@string/davies"
+            android:textAppearance="@style/davies"
+            android:gravity="top"
+            android:letterSpacing=".16"
+            android:alpha="0.4"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".85"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/i_do_art_i_"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:gravity="top"
+            android:text="@string/i_do_art_i_"
+            android:textAppearance="@style/i_do_art_i_" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight=".15">
+        <include layout="@layout/rectangle_2"/>
+    </LinearLayout>
+</LinearLayout>

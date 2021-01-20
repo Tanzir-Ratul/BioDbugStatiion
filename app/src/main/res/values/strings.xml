@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BioDbugStation</string>
+    <string name="menu">MENU</string>
+    <string name="main_headin">bio</string>
+    <string name="jake">Jake</string>
+    <string name="davies">Davies</string>
+    <string name="i_do_art_i_">
+        I do art, I have constant contact with it. It\u00E2\u0080\u0099s not boring, and is something I really enjoy. I get to know a lot of people, different artists and very interesting customers and it pays well.
+    </string>
+
+</resources>
